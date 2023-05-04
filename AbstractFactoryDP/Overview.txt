@@ -1,0 +1,16 @@
+﻿In the abstract factory pattern, we define an abstract factory interface or abstract class, 
+which declares a set of factory methods for creating related objects. 
+Each concrete implementation of the abstract factory provides a way to create a 
+family of related objects.
+
+So, in a sense, the abstract factory is a factory that produces other factories, 
+and each of those factories is responsible for creating a different set of related objects.
+
+
+The Abstract Factory Design Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects 
+without specifying their concrete classes.
+
+As in the example, IUIFactory is the abstract factory which has many factories such as IButton in the example.
+
+There is concrete factory Named Dark and Light Theme factory implements the Abstract factory, then the
+client code that uses the Abstract factory to use the class whatever the users request.

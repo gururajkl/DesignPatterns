@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehaviouralDesignPattern", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDP", "FactoryDP\FactoryDP.csproj", "{AFFC0E3C-5A11-4D09-92BA-0E189C5BBBC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryDP", "AbstractFactoryDP\AbstractFactoryDP.csproj", "{BE467675-A3DD-4BA9-B776-28AB22F6DC5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{AFFC0E3C-5A11-4D09-92BA-0E189C5BBBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFFC0E3C-5A11-4D09-92BA-0E189C5BBBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFFC0E3C-5A11-4D09-92BA-0E189C5BBBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE467675-A3DD-4BA9-B776-28AB22F6DC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE467675-A3DD-4BA9-B776-28AB22F6DC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE467675-A3DD-4BA9-B776-28AB22F6DC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE467675-A3DD-4BA9-B776-28AB22F6DC5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFFC0E3C-5A11-4D09-92BA-0E189C5BBBC5} = {A82C2491-AF9F-4197-809A-F73D8ABE2FE6}
+		{BE467675-A3DD-4BA9-B776-28AB22F6DC5E} = {A82C2491-AF9F-4197-809A-F73D8ABE2FE6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3245A5C-A10A-4029-94E3-7DBE0A2A15D7}
