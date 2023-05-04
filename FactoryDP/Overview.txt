@@ -1,0 +1,14 @@
+﻿Remember : In Factory Design Pattern we use Factory class to create instance of the Concrete classes.
+
+Basics : The Factory Design Pattern is a creational DP that provides a way to create an objects without exposing the 
+		 creation logic to the client. It involves creating a factory class that is responsible for creating objects
+		 of particular type based on the input provided by the client.
+
+Steps : 1. We define the interface first which is will be implemented by the Concrete classes.
+		Concrete class -> A class which implements the interface called as concrete class.
+
+		2. We define Concrete classes that implement the interface defined in step 1.
+
+		3. To create an instance of these concreate classes we use factory classes.
+		 
+Please go through the example for better understanding
