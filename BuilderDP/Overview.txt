@@ -1,0 +1,10 @@
+﻿The Builder Design Pattern is a creational pattern that separates the construction of a complex object 
+from its representation, allowing the same construction process to create different representations.
+
+The builder pattern separates the construction of the complex object from its representation 
+by defining an abstract interface for building the object. 
+This interface specifies the individual steps needed to construct the object, 
+but it does not specify the actual implementation of those steps. 
+This allows for different representations of the same complex object to be created using 
+the same construction process.
+
